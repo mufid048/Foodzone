@@ -1,8 +1,10 @@
 import React from 'react'
+import Login from './Login'
 
 export default function Navbar() {
     return (
         <div>
+        
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">Navbar</a>
@@ -37,6 +39,7 @@ export default function Navbar() {
         <button className="btn btn-outline-success" type="submit">Search</button> */}
                             {/* <button type="button" className="btn btn-info">Log in</button> */}
                             <a className="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Log In</a>
+
                         </form>
                     </div>
                 </div>
